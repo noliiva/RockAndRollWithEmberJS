@@ -13,16 +13,19 @@ export default Ember.Route.extend({
       band: 'Led Zeppelin',
       rating: 3
     });
+
     var yellowLedbetter = Song.create({
       title: 'Yellow Ledbetter',
       band: 'Pearl Jam',
       rating: 4
     });
+
     var pretender = Song.create({
       title: 'The Pretender',
       band: 'Foo Fighters',
       rating: 2
     });
+
     return [blackDog, yellowLedbetter, pretender];
   }
 });
