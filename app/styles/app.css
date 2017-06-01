@@ -50,3 +50,12 @@
 .new-song-button {
     margin-left: 20px;
 }
+
+.rating-panel {
+    float: right;
+}
+
+a.star-rating {
+    color: inherit;
+    text-decoration: none;
+}
